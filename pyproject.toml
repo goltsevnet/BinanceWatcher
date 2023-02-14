@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "binancewatcher"
+version = "0.1.0"
+description = "XRP/USDT Watcher"
+authors = ["Mark Goltsev <mark@goltsev.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+certifi = "^2022.12.7"
+binance-connector = "^2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.1.0"
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
